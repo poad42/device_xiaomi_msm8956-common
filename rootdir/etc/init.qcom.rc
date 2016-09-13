@@ -197,6 +197,7 @@ on boot
    #PocketMode
     chmod 0660 /sys/devices/soc/soc:fpc_fpc1020/proximity_state
     chown system system /sys/devices/soc/soc:fpc_fpc1020/proximity_state
+
 on fs
     mount_all fstab.qcom
     mkdir /persist/data 0700 system system
