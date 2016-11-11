@@ -1,4 +1,4 @@
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,21 +12,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# We currently have customized supportfor AW2013 and QPNP controllers
 LOCAL_PATH:= $(call my-dir)
-
-ifeq ($(TARGET_PROVIDES_LIBLIGHT),true)
-ifneq ($(filter kenzo,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 
-LOCAL_SRC_FILES := lights.c
-LOCAL_MODULE_RELATIVE_PATH := hw
+LOCAL_SRC_FILES := lights-aw2013.c
+LOCAL_MODULE_RELATIVE_PATH    := hw
 LOCAL_SHARED_LIBRARIES := liblog libcutils
 
-LOCAL_MODULE := lights.$(TARGET_BOARD_PLATFORM)
+LOCAL_MODULE := lights.msm8952
 LOCAL_MODULE_TAGS := optional
 
 include $(BUILD_SHARED_LIBRARY)
-
-endif # TARGET_DEVICE
-endif # TARGET_PROVIDES_LIBLIGHT
