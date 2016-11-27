@@ -39,6 +39,18 @@ persist.dpm.nsrm.bkg.evt=3955
 # Dex2oat threads for faster app installation
 ro.sys.fw.dex2oat_thread_count=6
 
+#Dex2oat Limits
+
+dalvik.vm.boot-dex2oat-threads=12
+dalvik.vm.dex2oat-threads=6
+dalvik.vm.image-dex2oat-threads=12
+
+
+# Higher fling velocities to smooth scrolling
+# and provide better responsiveness
+ro.min.fling_velocity=160
+ro.max.fling_velocity=20000
+
 # Display
 debug.egl.hw=0
 debug.enable.sglscale=1
