@@ -93,7 +93,12 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Camera2
+   camera.msm8952  \
+    Camera2   
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    media.stagefright.legacyencoder=true \
+    media.stagefright.less-secure=true
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
@@ -117,6 +122,10 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
+<<<<<<< HEAD:msm8956.mk
+=======
+ #   XiaomiPocketMode \
+>>>>>>> c33cf8f... Enable HAL1 for cam tweaks to work you dumbfuck:device.mk
     fingerprintd
 
 # FM
