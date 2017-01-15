@@ -107,6 +107,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     libcnefeatureconfig
 
+# Consumerir
+PRODUCT_PACKAGES += \
+    consumerir.msm8952
+
 # DataServices
 PRODUCT_PACKAGES += \
     librmnetctl
