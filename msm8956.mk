@@ -90,13 +90,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:system/etc/audio_platform_info.xml \
     $(LOCAL_PATH)/audio/audio_policy.conf:system/etc/audio_policy.conf
 
-# Browser
-PRODUCT_PACKAGES += \
-    Gello
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    Camera2
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
@@ -113,10 +110,6 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8952 \
     memtrack.msm8952 \
     liboverlay
-
-# Doze mode
-PRODUCT_PACKAGES += \
-    XiaomiDoze
 
 # Face detection extension
 PRODUCT_PACKAGES += \
