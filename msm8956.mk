@@ -121,11 +121,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-<<<<<<< HEAD:msm8956.mk
-=======
- #   XiaomiPocketMode \
->>>>>>> c33cf8f... Enable HAL1 for cam tweaks to work you dumbfuck:device.mk
-    fingerprintd
+   fingerprintd
 
 # FM
 PRODUCT_PACKAGES += \
