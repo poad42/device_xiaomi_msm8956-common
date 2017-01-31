@@ -54,6 +54,12 @@ dalvik.vm.image-dex2oat-threads=12
 ro.min.fling_velocity=160
 ro.max.fling_velocity=20000
 
+# Data modules
+ro.use_data_netmgrd=true
+persist.data.netmgrd.qos.enable=true
+persist.data.mode=concurrent
+persist.data.iwlan.enable=true
+
 # GPS
 persist.gps.qc_nlp_in_use=1
 persist.loc.nlp_name=com.qualcomm.location
@@ -76,11 +82,6 @@ media.msm8956hw=1
 mm.enable.smoothstreaming=true
 mmp.enable.3g2=true
 media.aac_51_output_enabled=true
-
-# Netmgrd
-persist.data.mode=concurrent
-persist.data.netmgrd.qos.enable=true
-ro.use_data_netmgrd=true
 
 # NITZ
 persist.rild.nitz_plmn=
