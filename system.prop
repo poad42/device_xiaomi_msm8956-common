@@ -35,7 +35,6 @@ ro.btconfig.chip=WCN3680
 # Camera
 media.camera.ts.monotonic=1
 persist.camera.HAL3.enabled=1
-camera.lowpower.record.enable=1
 camera.disable_zsl_mode=1
 
 # CNE/DPM
