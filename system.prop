@@ -36,6 +36,7 @@ ro.btconfig.chip=WCN3680
 media.camera.ts.monotonic=1
 persist.camera.HAL3.enabled=1
 camera.lowpower.record.enable=1
+camera.disable_zsl_mode=1
 
 # CNE/DPM
 persist.cne.feature=1
@@ -126,13 +127,6 @@ persist.radio.VT_HYBRID_ENABLE=1
 
 # Storage
 ro.sys.sdcardfs=true
-
-# Camera
-camera.disable_zsl_mode=1
-persist.camera.imglib.fddsp=1
-persist.camera.llc=1
-persist.camera.llnoise=1
-camera.hal1.packagelist=com.skype.raider,com.whatsapp,com.tencent.mm,com.google.android.GoogleCamera
 
 # TCP
 net.tcp.2g_init_rwnd=10
