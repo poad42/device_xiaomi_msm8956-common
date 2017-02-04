@@ -36,9 +36,6 @@ ro.btconfig.chip=WCN3680
 media.camera.ts.monotonic=1
 persist.camera.HAL3.enabled=1
 camera.lowpower.record.enable=1
-vidc.debug.perf.mode=2
-camera.disable_zsl_mode=1
-vidc.enc.dcvs.extra-buff-count=2
 
 # CNE/DPM
 persist.cne.feature=1
