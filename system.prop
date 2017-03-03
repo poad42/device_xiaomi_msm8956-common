@@ -33,9 +33,9 @@ ro.btconfig.chip=WCN3680
 
 
 # Camera
-media.camera.ts.monotonic=1
 persist.camera.HAL3.enabled=1
 camera.disable_zsl_mode=1
+media.camera.ts.monotonic=1
 
 # CNE/DPM
 persist.cne.feature=1
@@ -123,9 +123,6 @@ persist.radio.sib16_support=1
 persist.radio.start_ota_daemon=1
 persist.radio.sw_mbn_update=0
 persist.radio.VT_HYBRID_ENABLE=1
-
-# Storage
-#ro.sys.sdcardfs=true
 
 # TCP
 net.tcp.2g_init_rwnd=10
