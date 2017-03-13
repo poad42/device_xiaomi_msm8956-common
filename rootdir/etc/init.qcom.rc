@@ -536,7 +536,7 @@ service hostapd /system/bin/hostapd -dd /data/hostapd/hostapd.conf
     oneshot
     disabled
 
-service cnss_diag /system/bin/cnss_diag --q -f -d
+service cnss_diag /system/bin/cnss_diag --q
     class late_start
     user system
     group system wifi inet net_admin sdcard_rw media_rw diag
