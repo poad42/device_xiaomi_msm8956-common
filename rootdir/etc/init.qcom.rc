@@ -542,7 +542,7 @@ service cnss_diag /system/bin/cnss_diag --q
     group system wifi inet net_admin sdcard_rw media_rw diag
     oneshot
 
-service cnss-daemon /system/bin/cnss-daemon -n -l
+service cnss-daemon /system/bin/cnss-daemon -n
     class late_start
     user system
     group system inet net_admin wifi
