@@ -185,16 +185,6 @@ on boot
     chown system system /sys/class/leds/green/led_time
     chown system system /sys/class/leds/blue/led_time
 
-     # GPU Tuning
-     chown root system /sys/class/kgsl/kgsl-3d0/dispatch/inflight
-     chmod 0660 /sys/class/kgsl/kgsl-3d0/dispatch/inflight
-     chown root system /sys/class/kgsl/kgsl-3d0/dispatch/inflight_low_latency
-     chmod 0660 /sys/class/kgsl/kgsl-3d0/dispatch/inflight_low_latency
-   
-   #PocketMode
-    chmod 0660 /sys/devices/soc/soc:fpc_fpc1020/proximity_state
-    chown system system /sys/devices/soc/soc:fpc_fpc1020/proximity_state
-
 on fs
     mount_all fstab.qcom
     mkdir /persist/data 0700 system system
