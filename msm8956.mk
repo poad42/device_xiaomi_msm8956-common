@@ -81,7 +81,7 @@ PRODUCT_PACKAGES += \
     audio.usb.default \
     libaudio-resampler \
     libaudioroute \
-      libbthost_if \
+    libbthost_if \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
@@ -98,11 +98,15 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_PACKAGES += \
    camera.msm8952  \
-    Camera2   
+   Camera2   
 
 PRODUCT_PROPERTY_OVERRIDES += \
     media.stagefright.legacyencoder=true \
     media.stagefright.less-secure=true
+
+#Volte
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.radio.VT_CAM_INTERFACE = 1
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
