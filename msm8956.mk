@@ -146,8 +146,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-   fingerprintd \
-   XiaomiPocketMode 
+   fingerprintd
 
 # FM
 PRODUCT_PACKAGES += \
