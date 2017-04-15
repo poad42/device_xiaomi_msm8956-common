@@ -105,12 +105,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-   camera.msm8952  \
-    Camera2   
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    media.stagefright.legacyencoder=true \
-    media.stagefright.less-secure=true
+    camera.msm8952  \    
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
